@@ -6,6 +6,7 @@ import java.sql.SQLException;
 
 public class DBConnection {
     
+    
     private static Connection sConnection;
     
     public static Connection getInstance () throws ClassNotFoundException, SQLException {
